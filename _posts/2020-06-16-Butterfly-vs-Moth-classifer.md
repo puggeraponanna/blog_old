@@ -4,9 +4,11 @@ title:  Butterfly vs Moth classifier
 ---
 
 ***
-This is a classifier built and trained using [fastai](https://www.fast.ai). Fastai is popular these days because it makes the process of training and using the model very fast and easy. Do checkout their courses if you haven't done already.
+This is a classifier built using [fastai](https://www.fast.ai) and [Starlette](https://www.starlette.io).
 
-Collecting the data and training the model is already explained really well in the above course and is not in the scope of this post. Here I will go through details of converting the model from fastai (i.e [PyTorch](https://pytorch.org)) to [ONNX](https://onnx.ai) and run it for inference using [ONNX runtime](https://github.com/Microsoft/onnxruntime). Then we'll build a web app using [Starlette](https://www.starlette.io) and host it on Heroku[https://www.heroku.com].
+Fastai is popular these days because it makes the process of training and using the model very fast and easy. Do checkout their courses if you haven't done already.
+
+Collecting the data and training the model is already explained really well in the above course and is not in the scope of this post. Here I will go through details of converting the model from fastai (i.e [PyTorch](https://pytorch.org)) to [ONNX](https://onnx.ai) and run it for inference using [ONNX runtime](https://github.com/Microsoft/onnxruntime). Then we'll build a web app using Starlette and host it on Heroku[https://www.heroku.com].
 
 #### Steps
 * Converting the model to ONNX
