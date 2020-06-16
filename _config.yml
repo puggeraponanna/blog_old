@@ -1,0 +1,23 @@
+title: Puggera Ponanna
+description: 'Description'
+url: 'puggeraponanna.github.io'
+baseurl: ''
+google_analytics: UA-XXXXXX-X
+
+author:
+  name: Puggera Ponanna
+  email: puggeraponanna@tuta.io
+
+collections:
+  posts:
+    output: true
+    permalink: /:collection/:title
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag

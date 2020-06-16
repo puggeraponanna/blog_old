@@ -1,0 +1,17 @@
+<header>
+<nav class="navbar navbar-expand navbar-dark p-3 fixed-top">
+  <a class="navbar-brand" href="">
+    <img src="{{ site.baseurl }}/assets/images/logo.png" class="mr-4">
+    Puggera Ponanna
+  </a>
+  <div class="collapse navbar-collapse" id="navbarCollapse">
+    <ul class="navbar-nav mr-auto">
+      {% for item in site.data.navigation %}
+        <li class="nav-item active">
+          <a href="{{ item.link }}" class="nav-link">{{ item.name }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</nav>
+</header>
