@@ -3,6 +3,7 @@ description: 'Description'
 url: 'puggeraponanna.github.io'
 baseurl: ''
 google_analytics: UA-XXXXXX-X
+formspree: https://formspree.io/xpzyrvye
 
 author:
   name: Puggera Ponanna
